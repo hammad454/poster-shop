@@ -1,0 +1,220 @@
+*{
+  /** box-sizing : border-box räknar med border, margin i din width och height */
+  /** Content-box adderar påpadding, border och margin på din width och height */
+  /**box-sizing: content-box;****** för index coh flex filer */
+  box-sizing: border-box;
+}
+body {
+  /**background-color: beige;*/
+  /*color: black;*/
+  margin: 0%;
+  /*width: 100vw;*/
+ /* height: 100vh;*/
+ }
+/*********************************** för---index.html,fil
+h1 {
+  color: blue;
+ }
+ .title{
+  color: aqua;
+ }
+
+ .container{
+  background-color: black;
+  
+  
+ }
+
+ .presentation{
+  width: 100px;
+  height: 100px;
+  background-color: darkgrey;
+  padding: 10px;
+  border: 1px solid #fff;
+  margin: 10px;
+ }
+ .button{
+  background-color: #93f;
+  margin: 10px;
+  color: #fff;
+  padding: 10px;
+  border: 1px solid #fff;
+
+ }
+ .round{
+  border-radius: 50px;
+ }
+
+ .section-one{
+  width: 220px;
+  height: 200px;
+  background-color: black;
+ }
+
+
+ .section-one-text{
+  color: #fff;
+ }
+  
+ 
+
+ .inside-section-one{
+  width: 200px;
+  height: 50%;
+  background-color: #93f;
+ }
+************************************************************************************/
+
+
+/********************** för---flex.html,fil******************************************
+ .flex-container{
+       display: flex;
+       justify-content: space-between;
+       border: 1px solid #000;   
+ }
+ .flex-item{
+       width: 100px;
+       height: 100px;
+       background-color: blue;
+       margin: 0px
+       }
+*********************************************************************************/
+
+
+/**********************************för----flexbox,fil
+  .navigation{
+       border: 1px solid black;
+       width: 100%;
+       padding: 10px;
+       display: flex;
+       justify-content: space-around;
+  }
+  .link{
+    color: #93f;
+    text-decoration: none;
+  }
+
+  .presentation{
+    width: 100%;
+    height: 50%;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .title{
+    color: white;
+  }
+  .sub-title{
+    color: white;
+  }
+  .colums{
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    display: flex;
+  }
+  .colum{
+    width: 50%;
+    height: 100%;
+    background-color: gray;
+  }
+  .purple{
+    background-color: #93f;
+  }
+    *************************************************************************/
+
+
+/*
+    .traffic-light{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: center;
+      align-items: center;
+    }
+    .light{
+      width: 150px;
+      height: 150px;
+      background-color: green;
+    }
+    .light.red{
+      background-color: red;
+      border: 10px solid darkred;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    }
+
+    .light.red aside{
+      background-color: lightcoral;
+      width: 100%;
+      height: 50%;
+      
+    }
+    .light.yellow{
+      background-color: yellow;
+      border: 10px solid orange;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      align-items: flex-end;
+    }
+    .light.yellow aside{
+      background-color: lightyellow;
+      height: 50%;
+      width: 50%;
+    }
+    .light.green{
+      background-color: green;
+      border: 10px solid darkgreen;
+      display: flex;
+      align-items: flex-end;
+    }
+    .light.green aside{
+      background-color: lightgreen;
+      width: 50%;
+      height: 50%;
+    }
+*/
+
+
+body{
+    box-sizing: border-box;
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+
+h1 {
+    font-size: 5rem;
+}
+
+
+header{
+    background-color: rgba(61, 224, 126, 1);
+    height: 80vh;
+    padding: 1rem 1rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;    
+}
+
+
+.hamburger-navicon, .ninja-head{
+    width: fit-content;
+}
+
+
+h1, .ninja-head{
+    align-self: center;
+}
+
+
+
+
